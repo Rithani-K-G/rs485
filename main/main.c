@@ -1,11 +1,3 @@
-/*
-#include "modbus.h"
-
-void app_main(void)
-{
-    modbus_master_init(MB_UART_PORT, MB_BAUD_RATE, MB_TX_PIN, MB_RX_PIN, MB_RTS_PIN, MB_SLAVE_ADDR);
-}
-*/
 
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
