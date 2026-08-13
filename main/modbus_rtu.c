@@ -1,5 +1,5 @@
 
-#include "modbus.h"
+#include "modbus_rtu.h"
 #include "mbcontroller.h"   // esp-modbus (FreeModbus-based) master API
 #include "driver/uart.h"
 #include "esp_log.h"
